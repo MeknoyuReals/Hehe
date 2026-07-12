@@ -1,0 +1,34 @@
+==================================================================
+              MEKNOYU LOADER - PANDUAN EKSEKUSI ROBLOX
+==================================================================
+
+Halo Robloxian! 
+
+Selamat datang di aplikasi resmi Meknoyu Loader. Semua script yang ada di folder
+ini (.lua) bisa langsung kamu salin dan gunakan di executor Roblox Android favoritmu
+seperti:
+- Delta Executor
+- Arceus X
+- Codex
+- Hydrogen
+- Fluxus Mobile
+
+CARA PENGGUNAAN DIRECT SCRIPT:
+1. Ekstrak file .lua dari folder ini menggunakan ZArchiver.
+2. Salin isi script .lua ini.
+3. Tempelkan (paste) ke kolom eksekusi di executor Roblox kamu.
+4. Jalankan script.
+
+CARA PENGGUNAAN LOADSTRING (SANGAT DIREKOMENDASIKAN):
+Jika tidak ingin menyalin script yang panjang, kamu bisa menggunakan fitur Loadstring
+otomatis dari aplikasi Meknoyu Loader!
+Gunakan sintaks berikut di executor kamu:
+
+loadstring(game:HttpGet("https://meknoyu.com/Loader/nomer"))()
+
+Ganti kata "nomer" sesuai dengan ID script yang ingin kamu panggil, contoh:
+loadstring(game:HttpGet("https://meknoyu.com/Loader/hub1"))()
+
+Terima kasih telah menggunakan Meknoyu Loader!
+Website: https://meknoyu.com
+==================================================================

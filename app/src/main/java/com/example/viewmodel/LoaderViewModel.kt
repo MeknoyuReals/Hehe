@@ -86,6 +86,13 @@ class LoaderViewModel(private val repository: LoaderScriptRepository) : ViewMode
         _statusMessage.value = "Script berhasil di-unload (dinonaktifkan)."
     }
 
+    fun unloadAll() {
+        unloadScript()
+        _scriptInput.value = ""
+        _customLabel.value = ""
+        _statusMessage.value = "Semua state telah dibersihkan."
+    }
+
     fun saveCurrentScriptToFavorites() {
         val input = _scriptInput.value.trim()
         var label = _customLabel.value.trim()
