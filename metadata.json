@@ -1,0 +1,6 @@
+{
+  "name": "Meknoyu Loader",
+  "description": "An elegant, gaming-inspired script loader for your scripts, providing loadstring generation, status tracking, and unload scripts for Roblox developers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
